@@ -10,19 +10,19 @@
 <body>
 
     <!-- Carousel wrapper -->
-    <div id="carouselMaterialStyle" class="carousel slide carousel-fade" data-mdb-ride="carousel">
+    <div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel">
         <!-- Indicators -->
         <div class="carousel-indicators">
-            <button type="button" data-mdb-target="#carouselMaterialStyle" data-mdb-slide-to="0" class="active"
+            <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-mdb-target="#carouselMaterialStyle" data-mdb-slide-to="1"
+            <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="1"
                 aria-label="Slide 2"></button>
-            <button type="button" data-mdb-target="#carouselMaterialStyle" data-mdb-slide-to="2"
+            <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="2"
                 aria-label="Slide 3"></button>
         </div>
 
         <!-- Inner -->
-        <div class="carousel-inner rounded-5 shadow-4-strong">
+        <div class="carousel-inner">
             <!-- Single item -->
             <div class="carousel-item active">
                 <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(15).webp" class="d-block w-100"
@@ -56,12 +56,12 @@
         <!-- Inner -->
 
         <!-- Controls -->
-        <button class="carousel-control-prev" type="button" data-mdb-target="#carouselMaterialStyle"
+        <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample"
             data-mdb-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-mdb-target="#carouselMaterialStyle"
+        <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample"
             data-mdb-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
@@ -69,51 +69,63 @@
     </div>
     <!-- Carousel wrapper -->
 
-    <main class="container">
-        <h1 class="noticias">Noticias</h1>
-        <div class="container__grid">
+    <!--  <div class="carousel" id="head"></div> -->
 
+    <section class="nosotros" id="nosotros">
+        <h2 class="noticias">Sobre Nosotros</h2>
+        <p>"Apasionados por autos de alta gama. Experiencia única. Selección exclusiva. Calidad y rendimiento
+            garantizados. Hacemos realidad tus sueños automotrices. Confía en LaloSuperCar."</p>
+    </section>
+
+    <main class="container">
+        <h2 class="noticias">Noticias</h2>
+
+        <div class="container__grid">
             <section class="cards">
-                <div class="cards__imag"><img class="cards___imag--tam"
-                        src="https://images.unsplash.com/photo-1603610882058-6b50795f187a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29jaGUlMjBtb3JhZG98ZW58MHx8MHx8fDA%3D&w=1000&q=80"
-                        alt="Imagen1"></div>
-                <div class="text">
-                    <h2 class="noticias">Titulo</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, doloremque. Illo
-                        quibusdam
-                        eveniet eligendi mollitia corporis animi autem, tempora voluptates culpa libero iusto itaque
-                        ipsum
-                        modi, quod dignissimos possimus commodi.</p>
+                <div class="cards__tam">
+                    <div class="cards__imag"><img class="cards___imag--tam"
+                            src="https://images.unsplash.com/photo-1603610882058-6b50795f187a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29jaGUlMjBtb3JhZG98ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+                            alt="Imagen1"></div>
+                    <div class="text">
+                        <h2 class="noticias">Titulo</h2>
+                        <p>El nuevo Tesla Model S: lujo y velocidad se unen en este revolucionario sedán eléctrico.
+                            ¡Experimenta el futuro sobre ruedas</p>
+                    </div>
                 </div>
-                <button class="btn"> Button
-                    <span class="sp"></span>
-                </button>
             </section>
 
             <section class="cards">
-                <div class="cards__imag"><img class="cards___imag--tam"
-                        src="https://siempreauto.com/wp-content/uploads/sites/9/2021/07/P90428462_highRes_the-all-new-bmw-m240.jpg?w=4096"
-                        alt="Imagen1"></div>
-                <div class="text">
-                    <h2 class="noticias">Titulo</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, doloremque. Illo
-                        quibusdam
-                        eveniet eligendi mollitia corporis animi autem, tempora voluptates culpa libero iusto itaque
-                        ipsum
-                        modi, quod dignissimos possimus commodi.</p>
+                <div class="cards__tam">
+                    <div class="cards__imag"><img class="cards___imag--tam"
+                            src="https://siempreauto.com/wp-content/uploads/sites/9/2021/07/P90428462_highRes_the-all-new-bmw-m240.jpg?w=4096"
+                            alt="Imagen1">
+                    </div>
+                    <div class="text">
+                        <h2 class="noticias">Titulo</h2>
+                        <p>Descubre el impresionante Lamborghini Huracán Evo: diseño agresivo y potencia deslumbrante.
+                            ¡Una
+                            experiencia de conducción inigualable!</p>
+                    </div>
                 </div>
-                <button class="btn"> Button
-                    <span class="sp"></span>
-                </button>
+            </section>
+
+            <section class="cards">
+                <div class="cards__tam">
+                    <div class="cards__imag"><img class="cards___imag--tam"
+                            src="https://images.unsplash.com/photo-1603610882058-6b50795f187a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29jaGUlMjBtb3JhZG98ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+                            alt="Imagen1"></div>
+                    <div class="text">
+                        <h2 class="noticias">Titulo</h2>
+                        <p>El nuevo Tesla Model S: lujo y velocidad se unen en este revolucionario sedán eléctrico.
+                            ¡Experimenta el futuro sobre ruedas</p>
+                    </div>
+                </div>
             </section>
         </div>
+
     </main>
 
-    <!-- <section class="ima__Auto">
-        <div class="mas">
-            <h2>Zapato</h2>
-        </div>
-    </section> -->
+
 
 </body>
 

@@ -1,4 +1,13 @@
-<div id="contenedor">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- <div id="contenedor">
     <div id="central">
         <div id="login">
             <div class="titulo">
@@ -20,7 +29,38 @@
             </div>
         </div>
         <div class="inf">
-            <a routerLink="/register">Regresar</a>
+            <a routerLink="">Regresar</a>
+        </div>
+    </div>
+</div> -->
+
+<div id="contenedor">
+    <div id="central">
+        <div id="login">
+            <div class="titulo">
+                Iniciar Sesión
+            </div>
+            <form class="login-form">
+                <div class="log-campo">
+                    <input type="text" id="user" name="user" placeholder="Usuario" required>
+                </div>
+                <div class="log-campo">
+                    <input type="password" id="password" name="password" placeholder="Contraseña" required>
+                </div>
+
+                <button type="submit" title="Ingresar" class="login" name="login">Login</button>
+            </form>
+            <div class="pie-form">
+                <a id="forgotten_Pass" name="forgotten_Pass" routerLink="register">¿Perdiste tu contraseña?</a>
+                <a id="new_Account" name="new_Account" routerLink="/register">Crear una cuenta nueva</a>
+            </div>
+        </div>
+        <div class="inf">
+            <a routerLink="">Regresar</a>
         </div>
     </div>
 </div>
+
+
+</body>
+</html>

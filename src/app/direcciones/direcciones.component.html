@@ -15,6 +15,66 @@
                 </div>
                 <div class="campo">
                     <label for="d-calle">Calle</label>
+                    <input type="text" name="d-calle" id="d-calle" placeholder="Calle" required>
+                </div>
+                <div class="campo">
+                    <label for="d-numero">Numero de casa</label>
+                    <input type="number" name="d-numero" id="d-numero" placeholder="Numero de casa" required>
+                </div>
+                <div class="campo">
+                    <button type="submit" title="d-ingresar" name="d-ingresar" id="d-ingresar" routerLink="/direcciones">Registrar</button>
+                </div>
+                <div class="campo">
+                    <button type="button" class="btn" data-mdb-toggle="modal"
+                        data-mdb-target="#exampleModal">
+                        Omitir
+                    </button>
+                </div>
+            </form>
+        </div>
+        <div class="inf">
+            <a href="index.html">Regresar</a>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                ¿Seguro que quieres omitir tu direccion?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" routerLink="">Omitir</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- <div id="contenedor">
+    <div id="central">
+        <div id="login">
+            <div class="titulo">
+                Direcciones
+            </div>
+            <form class="registrar-form">
+                <div class="campo">
+                    <label for="d-pais">Pais</label>
+                    <input type="text" name="d-pais" id="d-pais" id="d-pais" placeholder="Pais" required>
+                </div>
+                <div class="campo">
+                    <label for="d-ciudad">Ciudad</label>
+                    <input type="text" name="d-ciudad" id="d-ciudad" placeholder="Ciudad" required>
+                </div>
+                <div class="campo">
+                    <label for="d-calle">Calle</label>
                     <input type="date" name="d-calle" id="d-calle" placeholder="Calle" required>
                 </div>
                 <div class="campo">
@@ -39,7 +99,7 @@
 </div>
 
 
-<!-- Modal -->
+
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -56,4 +116,4 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->

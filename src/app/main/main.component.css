@@ -1,38 +1,29 @@
+body {
+    background-color: #FFFFFF;
+}
+
+/*-------------------------------------------
+CAROUSEL
+-------------------------------------------*/
+.carousel-item {
+    max-height: 550px;
+}
+
+/*-------------------------------------------
+CIERRE CAROUSEL
+-------------------------------------------*/
+
+
+/*-------------------------------------------
+Container
+-------------------------------------------*/
 .container {
-    max-width: 90%;
+    max-width: 100%;
     margin-top: 1rem;
     padding: 1rem;
-    /* background-color: rgba(0, 0, 0, 0.637); */
     display: grid;
     gap: 1rem;
     border: 1rem;
-}
-
-.noticias {
-    text-align: center;
-    color: rgb(13, 102, 180);
-}
-
-.cards {
-    width: 90%;
-    margin: 0 auto;
-    margin-bottom: 1rem;
-    padding: 1rem;
-    background-color: rgba(39, 41, 41, 0.103);
-}
-
-.cards___imag--tam {
-    max-width: 90%;
-    max-height: 240px;
-    padding-top: 1rem;
-    margin: 0 auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.text {
-    padding: 1rem;
 }
 
 @media (min-width: 768px) {
@@ -43,6 +34,51 @@
     }
 }
 
+.cards {
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    text-align: justify;
+}
+
+section .cards p {
+    color: #000000;
+}
+
+.cards___imag--tam {
+    width: 95%;
+    max-height: 300px;
+    padding-top: 1rem;
+    margin: 0 auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cards__tam {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.text {
+    margin: 0 auto;
+    max-width: 95%;
+}
+
+/*-------------------------------------------
+Noticias
+-------------------------------------------*/
+.noticias {
+    text-align: center;
+    color: rgb(13, 102, 180);
+}
+
+/*-------------------------------------------
+Cierre Noticias
+-------------------------------------------*/
+
+
 /* .ima__Auto{
     background-image: url(https://i.pinimg.com/originals/ec/45/ea/ec45eaef22ce931b6aa110d035fa724e.jpg);
     background-repeat: no-repeat;
@@ -52,65 +88,22 @@
     height: 20rem;
 } */
 
+
 /*-------------------------------------------
-BOTONES
+Nosotros
 -------------------------------------------*/
-.btn {
-    border: none;
-    display: block;
-    position: relative;
-    padding: 0.7em 2.4em;
-    font-size: 18px;
-    background: transparent;
-    cursor: pointer;
-    user-select: none;
-    overflow: hidden;
-    color: royalblue;
-    z-index: 1;
-    font-family: inherit;
-    font-weight: 500;
-    align-items: center;
-    margin: 0 auto;
+.nosotros {
+    max-width: 100%;
+    color: #000000;
+    padding: 4rem;
+    padding-bottom: 2rem;
+    text-align: justify;
 }
 
-.btn .sp {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: transparent;
-    z-index: -1;
-    border: 4px solid royalblue;
-}
-
-.btn .sp::before {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 8%;
-    height: 500%;
-    background: var(--lightgray);
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(-60deg);
-    transition: all 0.3s;
-}
-
-.btn:hover .sp::before {
-    transform: translate(-50%, -50%) rotate(-90deg);
-    width: 100%;
-    background: royalblue;
-}
-
-.btn:hover {
-    color: white;
-}
-
-.btn:active .sp::before {
-    background: #2751cd;
+.nosotros p {
+    color: #333333;
 }
 
 /*-------------------------------------------
-CIERRE BOTONES
+CIERRE Nosotros
 -------------------------------------------*/

@@ -1,144 +1,80 @@
 #contenedor {
-    background-image: url(https://media.metrolatam.com/2019/08/12/bmwm2coupecc81ed-71c8056fe75fecc46ba58efc8212e5ce.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: center;
-    background-size: cover;
-    color: #fff;
+    background-color: #F0F0F0; /* Color de fondo agradable */
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-    min-height: 90vh;
-    max-width: 100%;
-    /* height: 100%; */
+    color: #333333; /* Color de texto principal */
 }
 
 #central {
-    max-width: 600px;
-    width: 100%;
-}
-
-.titulo {
-    font-size: 250%;
-    color: #ffffff;
-    text-align: center;
-    margin-bottom: 20px;
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 20px;
 }
 
 #login {
-    width: 100%;
-    padding: 50px 30px;
-    background-color: transparent;
-
-    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.699);
-
-    border-radius: 3px 3px 3px 3px;
-
-
-    box-sizing: border-box;
+    background-color: #FFFFFF; /* Color de fondo del formulario */
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    padding: 20px;
 }
 
-#login input {
-    font-family: 'Overpass', sans-serif;
-    font-size: 110%;
-    color: #1b262c;
-    display: block;
-    width: 100%;
-    height: 40px;
-    margin-bottom: 10px;
-    padding: 5px 5px 5px 10px;
-    box-sizing: border-box;
+.titulo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
-#login input::placeholder {
-    font-family: 'Overpass', sans-serif;
-    color: #441462;
+.registrar-form .campo {
+    margin-bottom: 15px;
 }
 
-#login button {
-    font-family: 'Overpass', sans-serif;
-    font-size: 110%;
-    color: #ffffff;
+.registrar-form label {
+    font-weight: bold;
+}
+
+.registrar-form input,
+.registrar-form select {
     width: 100%;
-    height: 40px;
+    padding: 8px;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+}
+
+.registrar-form button {
+    display: inline-block;
+    width: 100%;
+    background-color: #333333; /* Color de fondo del botón */
+    color: #FFFFFF; /* Color de texto del botón */
     border: none;
-    background-color: #441462;
-    margin-top: 10px;
-    transition: all 0.5s;
+    border-radius: 3px;
+    padding: 8px 20px;
+    cursor: pointer;
 }
 
-#login button:hover {
-    background-color: #9a3ed8;
-    color: #ffffff;
-}
-
-.pie-form {
-    font-size: 90%;
-    text-align: center;
-    margin-top: 15px;
-}
-
-.pie-form a {
-    display: block;
-    text-decoration: none;
-    color: #bbe1fa;
-    margin-bottom: 3px;
-}
-
-.pie-form a:hover {
-    color: #0f4c75;
+.registrar-form button:hover {
+    background-color: #FF69B4;
 }
 
 .inf {
-    margin-top: 10px;
-    font-size: 90%;
+    margin-top: 20px;
     text-align: center;
 }
 
 .inf a {
-    display: block;
+    color: #333333;
     text-decoration: none;
-    color: #bbe1fa;
-    margin-bottom: 3px;
 }
 
-.inf a:hover {
-    color: #3282b8;
-}
 
-/*--------------------------------------------
-Registro de Usuarios
---------------------------------------------*/
-
-@media (min-width: 600px) {
-    .registrar-form {
+@media (min-width: 600px) { 
+    .registrar-form{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
     }
-
-    .campo:nth-child(5) {
+    .campo:nth-child(5){
         grid-column: 1/3;
     }
-
-    .campo:nth-child(8) {
+    .campo:nth-child(8){
         grid-column: 2/3;
     }
-}
-
-.custom-select {
-    padding: 8px;
-    font-size: 14px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    width: 100%;
-}
-
-.custom-select option {
-    padding: 8px;
 }

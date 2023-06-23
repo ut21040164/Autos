@@ -1,6 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+// Servicios
+import { ScriptsService } from "./scripts.service"
+// Fin servicios
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -30,7 +34,9 @@ import { ModelosComponent } from './modelos/modelos.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    ScriptsService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
