@@ -1,7 +1,7 @@
 #contenedor {
-    background-color: #F0F0F0; /* Color de fondo agradable */
+    background-color: #F0F0F0;
     font-family: Arial, sans-serif;
-    color: #333333; /* Color de texto principal */
+    color: #333333;
 }
 
 #central {
@@ -11,7 +11,7 @@
 }
 
 #login {
-    background-color: #FFFFFF; /* Color de fondo del formulario */
+    background-color: #FFFFFF;
     border: 1px solid #CCCCCC;
     border-radius: 5px;
     padding: 20px;
@@ -42,8 +42,8 @@
 .registrar-form button {
     display: inline-block;
     width: 100%;
-    background-color: #333333; /* Color de fondo del botón */
-    color: #FFFFFF; /* Color de texto del botón */
+    background-color: #333333;
+    color: #FFFFFF;
     border: none;
     border-radius: 3px;
     padding: 8px 20px;
