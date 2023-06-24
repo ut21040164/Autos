@@ -54,6 +54,10 @@ input[type="password"] {
     margin-top: 10px;
 }
 
+.log-campo label {
+    font-weight: bold;
+}
+
 .login:hover {
     background-color: #FF69B4;
 }

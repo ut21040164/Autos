@@ -1,5 +1,7 @@
 body {
     background-color: #FFFFFF;
+    margin: 0 auto;
+    padding: 0;
 }
 
 /*-------------------------------------------
@@ -8,72 +10,9 @@ CAROUSEL
 .carousel-item {
     max-height: 550px;
 }
+
 /*-------------------------------------------
 CIERRE CAROUSEL
--------------------------------------------*/
-
-
-/*-------------------------------------------
-Container
--------------------------------------------*/
-.container {
-    max-width: 100%;
-    margin-top: 1rem;
-    padding: 1rem;
-    display: grid;
-    gap: 1rem;
-    border: 1rem;
-}
-
-@media (min-width: 768px) {
-    .container__grid {
-        display: grid;
-        gap: 1rem;
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-.cards {
-    max-width: 100%;
-    margin: 0 auto;
-    margin-bottom: 1rem;
-    padding: 1rem;
-    text-align: justify;
-}
-
-section .cards p {
-    color: #000000;
-}
-
-.cards___imag--tam {
-    width: 95%;
-    max-height: 300px;
-    padding-top: 1rem;
-    margin: 0 auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.cards__tam {
-    margin: 0 auto;
-    max-width: 80%;
-}
-
-.text {
-    margin: 0 auto;
-    max-width: 95%;
-}
-
-/*-------------------------------------------
-Noticias
--------------------------------------------*/
-.noticias {
-    text-align: center;
-    color: rgb(13, 102, 180);
-}
-/*-------------------------------------------
-Cierre Noticias
 -------------------------------------------*/
 
 /*-------------------------------------------
@@ -90,6 +29,82 @@ Nosotros
 .nosotros p {
     color: #333333;
 }
+
 /*-------------------------------------------
 CIERRE Nosotros
+-------------------------------------------*/
+
+
+/*-------------------------------------------
+Noticias
+-------------------------------------------*/
+.noticias {
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(13, 102, 180);
+}
+
+.container {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.cards {
+    max-width: 100%;
+}
+
+.cards__tam {
+    max-width: 100%;
+}
+
+.cards__imag {
+
+}
+
+.cards___imag--tam {
+    max-width: 22em;
+    padding: .5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 768px) { 
+    .container__grid {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: .5rem;
+    }
+
+    .cards___imag--tam {
+        width: 25rem!important;
+        height: 14rem;
+    }
+}
+
+@media (min-width: 1200px) { 
+    .container__grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr)
+    }
+
+    .cards___imag--tam {
+        width: 30rem!important;
+        min-height: auto;
+    }
+}
+
+.text {
+    text-align: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+/*  */
+
+
+/*-------------------------------------------
+Cierre Noticias
 -------------------------------------------*/
