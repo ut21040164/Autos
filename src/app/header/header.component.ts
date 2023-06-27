@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
-  
+  LogoLalo:string = "assets/Imagenes/SuperCar.jpeg";
 
 }
