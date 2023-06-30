@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class ModelosComponent {
 
+  Nissan_Sentra:string = "assets/Imagenes/Nissan/Nissan_Sentra.jpg";
+  Nissan_Sentra_2:string = "assets/Imagenes/Nissan/Nissan_Sentra_2.jpg";
 }
